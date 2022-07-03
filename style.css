@@ -1,0 +1,115 @@
+
+.header1{
+    background-color: #D6E6F2;
+}
+img {
+    height: 76px;
+    width: 256px;
+    background-color: #D6E6F2;
+}
+
+.navbar navbar-inversed{
+    background-color: #303481;
+}
+
+.container-fluid{
+    background-color: #1f4461;
+    border: #1f4461 solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-fluid a {
+
+        background-image: linear-gradient(
+          to right,
+          #FFF200,
+          #FFF200 50%,
+          #D6E6F2 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+}
+
+      
+.container-fluid a:before{
+        content: '';
+        background: #FFF200;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .container-fluid a:hover {
+       background-position: 0;
+      }
+      
+      .container-fluid a:hover::before{
+        width: 100%;
+      }
+      
+      .sidenav {
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        background-color: #D6E6F2;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+        border:#1f4461 solid;
+        border-width: 0.5px;
+      }
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav{
+        display: inline-block;
+        border-radius: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+      .container{
+display: inline-block;
+margin-left: 300px;
+padding-right: 60px;
+width: 850px;
+text-align: center;
+      }
+
+      .content{
+        margin-top: -20px;
+        background-color: #ecf3f9;
+        padding-top: 30px;
+        padding-left: 50px;
+        height: 525px;
+      }
+
+      h3{
+        color: #ffff00;
+        padding: 10px;
+        text-shadow: 0 0 3px black;
+
+      }
+
+      .Textsize{
+        color: #1f4461;
+        text-decoration: none;
+        display: inline-flex;
+        padding-left: 800px;
+
+
+      }
